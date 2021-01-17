@@ -26,7 +26,9 @@ jobs:
         run: npm install
       - name: Generate README file
         run: node index.js
+      - name: connects origin master
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main'
