@@ -4,12 +4,13 @@
 - 🧠 I'm currently learning ML and AI 
 - ⚙️ I Love to create new tools to empower CGI Artists
 
-Reach me at iwasvitto@gmail.com or on [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-)(https://www.linkedin.com/in/vittorio-rivabella/)]
+Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vittorio-rivabella/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Badge">
+</a>
 
 
 <p>This README is Updated every 6 Hours <br>
-<strong>Last automatic update Monday, January 18, 12:48 AM</strong></p>
+<strong>Last automatic update Monday, January 18, 12:52 AM</strong></p>
 https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github
 
 ## Things I use
