@@ -10,7 +10,7 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 </a>
 
 ## Things I use to code
-
+<p>
 <img alt="Python"  src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=flat-square&logo=python&logoColor=white"/>
 <img alt="R"  src="https://img.shields.io/badge/r-%23276DC3.svg?&style=flat-square&logo=r&logoColor=white"/>
 <img alt="Java"  src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/>
@@ -36,8 +36,8 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 <img alt="Unreal Engine " src="https://img.shields.io/badge/unreal%20engine%20-%23313131.svg?&style=flat-square&logo=unreal%20engine&logoColor=white"/>
 <img alt="Blender"  src="https://img.shields.io/badge/blender%20-%23F5792A.svg?&style=flat-square&logo=blender&logoColor=white"/>
 <img alt="Adobe" src="https://img.shields.io/badge/adobe%20-%23FF0000.svg?&style=flat-square&logo=adobe&logoColor=white"/>
-
+</p>
 <br>    
 <p >This README is Updated every 6 Hours <br>
-<strong>Last automatic update Monday, January 18, 1:33 AM</strong></p>
+<strong>Last automatic update Monday, January 18, 1:34 AM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
