@@ -5,8 +5,8 @@
 - ⚙️ I Love to create new tools to empower CGI Artists
 - 📈 Student at UHI partnership with IBM
 
-Reach me at iwasvitto@gmail.com or on <a width="10" height="20" href="https://www.linkedin.com/in/vittorio-rivabella/">
-<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vittorio-rivabella/">
+<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 
 ## Things I use to code
@@ -39,5 +39,5 @@ Reach me at iwasvitto@gmail.com or on <a width="10" height="20" href="https://ww
 
 <br>    
 <p >This README is Updated every 6 Hours <br>
-<strong>Last automatic update Monday, January 18, 1:26 AM</strong></p>
+<strong>Last automatic update Monday, January 18, 1:28 AM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
