@@ -9,31 +9,12 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 
-<h2>Projects I'm proud of</h2>
-table>
-  <thead align="center">
-    <tr border: none;>
-      <td><b>☀️ Projects</b></td>
-      <td><b>💬 Description</b></td>
-      <td><b>⭐ Stars</b></td>
-      <td><b>🔗 Link</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/thmsgbrt/react-simple-pull-to-refresh"><b>Susanna Artistic ML</b></a></td>
-      <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/susanna-server?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/Eversmile12/susanna-server"> Repository</a></td>
-    </tr>
-  </tbody>
-</table>
-
 <h2>Things i use </h2>
 <p>
 <img alt="Python"  src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=flat-square&logo=python&logoColor=white"/>
 <img alt="R"  src="https://img.shields.io/badge/r-%23276DC3.svg?&style=flat-square&logo=r&logoColor=white"/>
 <img alt="Java"  src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/>
+
 
 <img alt="JavaScript"  src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat-square&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="jQuery"  src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=flat-square&logo=jquery&logoColor=white"/>
@@ -57,8 +38,6 @@ table>
 <img alt="Adobe" src="https://img.shields.io/badge/adobe%20-%23FF0000.svg?&style=flat-square&logo=adobe&logoColor=white"/>
 
 </p>
-
-
 <br>    
 <p >This README is Updated every 6 Hours <br>
 <strong>Last automatic update Monday, January 18, 1:36 AM</strong></p>
