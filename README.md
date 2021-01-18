@@ -35,7 +35,6 @@ table>
 <img alt="R"  src="https://img.shields.io/badge/r-%23276DC3.svg?&style=flat-square&logo=r&logoColor=white"/>
 <img alt="Java"  src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/>
 
-
 <img alt="JavaScript"  src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat-square&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="jQuery"  src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=flat-square&logo=jquery&logoColor=white"/>
 
@@ -58,6 +57,8 @@ table>
 <img alt="Adobe" src="https://img.shields.io/badge/adobe%20-%23FF0000.svg?&style=flat-square&logo=adobe&logoColor=white"/>
 
 </p>
+
+
 <br>    
 <p >This README is Updated every 6 Hours <br>
 <strong>Last automatic update Monday, January 18, 1:36 AM</strong></p>
