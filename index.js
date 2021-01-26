@@ -1,19 +1,17 @@
 const mustache = require('mustache');
 const fs = require('fs');
 const fetch = require('node-fetch');
-const MUSTACHE_MAIN_DIR = "./main.mustache";
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const MUSTACHE_MAIN_DIR = "./main.mustache";
 const http = new XMLHttpRequest();
-
 
 
 
 function fetchLatestArticles(){
     const url = "https://binaryroot.xyz/api/latest_post.php";
     http.open("GET",url);
-    http.send();
-    
-    http.onreadystatechange= (e) =>{
+    http.send();    
+    http.onload= (e) =>{
         let response = JSON.parse(http.responseText);
         let dataToRender = {
             name: 'Vittorio',
@@ -37,7 +35,7 @@ function fetchLatestArticles(){
                 console.log("readme created");
             }
         })
-        return response;
+        return http.responseText;
     }
 }
 
