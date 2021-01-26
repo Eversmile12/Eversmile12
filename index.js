@@ -10,7 +10,8 @@ const http = new XMLHttpRequest();
 function fetchLatestArticles(){
     const url = "https://binaryroot.xyz/api/latest_post.php";
     http.open("GET",url);
-    http.send();    
+    http.send();
+    
     http.onload= (e) =>{
         let response = JSON.parse(http.responseText);
         let dataToRender = {
@@ -22,9 +23,10 @@ function fetchLatestArticles(){
                 hour: 'numeric',
                 minute: 'numeric',
                 timeZone: 'Europe/Rome',
-                latestPosts: response,
             }),
+            latestPosts: response,
         }
+        console.log(dataToRender.latestPosts["post1"]["post-title"]);
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
             if(err){
                 console.log(err);
