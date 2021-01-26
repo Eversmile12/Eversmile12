@@ -1,7 +1,7 @@
-// const mustache = require('mustache');
-// const fs = require('fs');
-// const fetch = require('node-fetch');
-// const MUSTACHE_MAIN_DIR = "./main.mustache";
+const mustache = require('mustache');
+const fs = require('fs');
+const fetch = require('node-fetch');
+const MUSTACHE_MAIN_DIR = "./main.mustache";
 
 function fetchLatestArticles(){
     fetch("http://binaryroot.xyz/api/latest_post.php", {mode:'cors'})
