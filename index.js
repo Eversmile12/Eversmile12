@@ -14,8 +14,7 @@ function fetchLatestArticles(){
             response.json()
             .then(function(latestPosts){
                 console.log(latestPosts);
-                updateDataToRender(latestPosts);
-
+                return updateDataToRender(latestPosts);
             }).catch((err)=> {
                 console.log('Error retrieving articles', err);
             })
@@ -48,7 +47,7 @@ function generateReadme(){
             console.log(err);
             throw(err);
         }else{
-            const output = mustache.render(data.toString(), dataToRender);
+            const output = mustache.render(data.toString(), fetchLatestArticles());
             fs.writeFileSync('README.MD', output);
         }
     })
