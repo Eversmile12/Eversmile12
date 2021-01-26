@@ -28,9 +28,11 @@ function fetchLatestArticles(){
             first_post_title: response["post1"]["post-title"],
             first_post_content: response["post1"]["post-content"],
             first_post_date: response["post1"]["post-date"],
+            first_post_url: response["post1"]["post-url"],
             second_post_title: response["post2"]["post-content"],
             second_post_content: response["post2"]["post-date"],
             second_post_date: response["post2"]["post-content"],
+            second_post_url: response["post2"]["post-url"],
         }
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
             if(err){
@@ -48,14 +50,3 @@ function fetchLatestArticles(){
 
 fetchLatestArticles();
 
-
-
-function generateReadme(){
-    console.log(fetchLatestArticles());
-    let dataToRender = fetchLatestArticles();
-    
-}
-
-
-
-// generateReadme();
