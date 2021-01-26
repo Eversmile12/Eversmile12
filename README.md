@@ -60,8 +60,8 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p><strong>Latest posts</strong></p>
-<p><strong>{latestPosts.post1["post-title"]}</strong></p>
+<p><strong>{latestPosts["post1"]["post-title"]}</strong></p>
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Tuesday, January 26, 3:50 PM</strong></p>
+<strong>Last automatic update Tuesday, January 26, 4:29 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
