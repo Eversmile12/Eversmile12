@@ -58,6 +58,8 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 </p>
 <br>    
 
+
+<h2> Latest posts </h2>
 <table>
   <thead align=center>
     <td><b>Date</b></td>
@@ -71,18 +73,15 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
     <td>Testing a second post</td>
     </tr>
     <tr>
-    <td>Test post</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;18">Test post</a></td>
     <td>2021-01-25 22:56:09</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;18">Test Post</a></td>
+    <td>Test post</td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Latest posts</strong></p>
-<p><strong>This is the second post</strong></p>
-<p><strong>Testing a second post</strong></p>
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Tuesday, January 26, 5:05 PM</strong></p>
+<strong>Last automatic update Tuesday, January 26, 5:09 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
