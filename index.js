@@ -40,13 +40,13 @@ async function fetchLatestArticles(){
 
 
 async function generateReadme(){
-    fs.readFile(MUSTACHE_MAIN_DIR, (err, data)=>{
+    console.log(fetchLatestArticles());
+    let dataToRender = await fetchLatestArticles();
+    fs.readFile(MUSTACHE_MAIN_DIR, async (err, data)=>{
         if(err){
             console.log(err);
             throw(err);
         }else{
-            console.log(fetchLatestArticles());
-            let dataToRender = await fetchLatestArticles();
             const output = mustache.render(data.toString(), dataToRender);
             fs.writeFileSync('README.MD', output);
         }
