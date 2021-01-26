@@ -3,7 +3,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 
-function fetchLatestArticles(){
+async function fetchLatestArticles(){
     fetch("http://binaryroot.xyz/api/latest_post.php", {mode:'cors'})
     .then(
         function(response){
@@ -52,6 +52,7 @@ async function generateReadme(){
         }
     })
 }
+
 
 
 generateReadme();
