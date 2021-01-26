@@ -24,8 +24,8 @@ function fetchLatestArticles(){
                 hour: 'numeric',
                 minute: 'numeric',
                 timeZone: 'Europe/Rome',
+                latestPosts: response,
             }),
-            latestPosts: response,
         }
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
             if(err){
