@@ -23,7 +23,6 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
       <td><a href="https://github.com/Eversmile12/susanna-server"><b>Susanna Artistic ML</b></a></td>
       <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.
       <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/susanna-server?style=flat-square&labelColor=343b41"/></td>
-      <td><a href="https://github.com/Eversmile12/susanna-server"> Repository</a></td>
     </tr>
   </tbody>
 </table>
@@ -59,5 +58,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 </p>
 <br>    
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Monday, January 18, 5:42 PM</strong></p>
+<strong>Last automatic update Tuesday, January 26, 1:08 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
