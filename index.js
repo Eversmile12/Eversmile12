@@ -54,5 +54,5 @@ function generateReadme(){
     })
 }
 
-generateReadme
+generateReadme();
 fetchLatestArticles();
