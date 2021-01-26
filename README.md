@@ -21,8 +21,13 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   <tbody>
     <tr>
       <td><a href="https://github.com/Eversmile12/susanna-server"><b>Susanna Artistic ML</b></a></td>
-      <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.
+      <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.</td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/susanna-server?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Eversmile12/TerraCare-submission"><b>Terra Care</b></a></td>
+      <td> IBM - Call for Code 2020 - Energy Winner</td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/TerraCare-submission?style=flat-square&labelColor=343b41"/></td>
     </tr>
   </tbody>
 </table>
@@ -58,6 +63,8 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 </p>
 <br>    
 
+
+<h2> Latest posts </h2>
 <table>
   <thead align=center>
     <td><b>Date</b></td>
@@ -71,18 +78,15 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
     <td>Testing a second post</td>
     </tr>
     <tr>
-    <td>Test post</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;18">Test post</a></td>
     <td>2021-01-25 22:56:09</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;18">Test Post</a></td>
+    <td>Test post</td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Latest posts</strong></p>
-<p><strong>This is the second post</strong></p>
-<p><strong>Testing a second post</strong></p>
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Tuesday, January 26, 5:05 PM</strong></p>
+<strong>Last automatic update Tuesday, January 26, 7:09 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
