@@ -14,6 +14,7 @@ function fetchLatestArticles(){
     
     http.onload= (e) =>{
         let response = JSON.parse(http.responseText);
+        console.log(response["post1"]["post-title"]);
         let dataToRender = {
             name: 'Vittorio',
             date: new Date().toLocaleDateString('en-GB',{
@@ -31,7 +32,6 @@ function fetchLatestArticles(){
             second_post_content: response["post2"]["post-date"],
             second_post_date: response["post2"]["post-content"],
         }
-        console.log(dataToRender.latestPosts["post1"]["post-title"]);
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
             if(err){
                 console.log(err);
