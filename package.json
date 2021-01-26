@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Eversmile12/Eversmile12#readme",
   "dependencies": {
-    "mustache": "^4.1.0"
+    "mustache": "^4.1.0",
+    "node-fetch": "^2.6.1"
   }
 }
