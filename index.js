@@ -14,7 +14,7 @@ function fetchLatestArticles(){
     http.send();
     
     http.onreadystatechange= (e) =>{
-        let response = http.responseText;
+        let response = JSON.parse(http.responseText);
         let dataToRender = {
             name: 'Vittorio',
             date: new Date().toLocaleDateString('en-GB',{
