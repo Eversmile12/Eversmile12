@@ -2,6 +2,7 @@ const mustache = require('mustache');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const MUSTACHE_MAIN_DIR = "./main.mustache";
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const http = new XMLHttpRequest();
 
 

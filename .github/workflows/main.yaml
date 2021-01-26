@@ -24,8 +24,8 @@ jobs:
           key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
       - name: Install dependencies
         run: npm install
-      - name: Install node-fetch
-        run: npm i node-fetch --save
+      - name: Install xml-httprequests
+        run: npm install xmlhttprequest
       - name: Generate README file
         run: node index.js
       - name: Commit and Push new README.md to the repository
