@@ -1,58 +1,55 @@
-const mustache = require('mustache');
-const fs = require('fs');
-const fetch = require('node-fetch');
+// const mustache = require('mustache');
+// const fs = require('fs');
+// const fetch = require('node-fetch');
 const MUSTACHE_MAIN_DIR = "./main.mustache";
+const http = new XMLHttpRequest();
 
-async function fetchLatestArticles(){
-    fetch("http://binaryroot.xyz/api/latest_post.php", {mode:'cors'})
-    .then(
-        function(response){
-            if(response.status !== 200){
-                console.log("looks like there was a problem fetching latest posts" + response.status);
-                return;
+
+
+
+function fetchLatestArticles(){
+    const url = "https://binaryroot.xyz/api/latest_post.php";
+    http.open("GET",url);
+    http.send();
+    
+    http.onreadystatechange= (e) =>{
+        let response = http.responseText;
+        let dataToRender = {
+            name: 'Vittorio',
+            date: new Date().toLocaleDateString('en-GB',{
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+                timeZone: 'Europe/Rome',
+            }),
+            latestPosts: response,
+        }
+        fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
+            if(err){
+                console.log(err);
+                throw(err);
+            }else{
+                const output = mustache.render(data.toString(), dataToRender);
+                fs.writeFileSync('README.MD', output);
+                console.log("readme created");
             }
-            response.json()
-            .then(function(latestPosts){
-                let dataToRender = {
-                    name: 'Vittorio',
-                    date: new Date().toLocaleDateString('en-GB',{
-                        weekday: 'long',
-                        month: 'long',
-                        day: 'numeric',
-                        hour: 'numeric',
-                        minute: 'numeric',
-                        timeZone: 'Europe/Rome',
-                    }),
-                    latestPosts: latestPosts
-                }
-                console.log("Inside promise" + dataToRender);
-                return dataToRender;
-            }).catch((err)=> {
-                console.log('Error retrieving articles', err);
-            })
-        }
-    )
+        })
+        return response;
+    }
 }
 
+fetchLatestArticles();
 
 
 
-
-
-async function generateReadme(){
+function generateReadme(){
     console.log(fetchLatestArticles());
-    let dataToRender = await fetchLatestArticles();
-    fs.readFile(MUSTACHE_MAIN_DIR, async (err, data)=>{
-        if(err){
-            console.log(err);
-            throw(err);
-        }else{
-            const output = mustache.render(data.toString(), dataToRender);
-            fs.writeFileSync('README.MD', output);
-        }
-    })
+    let dataToRender = fetchLatestArticles();
+    
 }
 
 
 
-generateReadme();
+// generateReadme();
