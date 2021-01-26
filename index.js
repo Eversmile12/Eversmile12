@@ -24,7 +24,15 @@ function fetchLatestArticles(){
                 minute: 'numeric',
                 timeZone: 'Europe/Rome',
             }),
-            latestPosts: response,
+            first_post_title: response["post1"]["post-title"],
+            first_post_content: response["post1"]["post-content"],
+            first_post_date: response["post1"]["post-date"],
+            second_post_title: response["post2"]["post-content"],
+            second_post_content: response["post2"]["post-date"],
+            second_post_date: response["post2"]["post-content"],
+            third_post_title: response["post3"]["post-date"],
+            third_post_content: response["post3"]["post-content"],
+            third_post_date: response["post3"]["post-date"],
         }
         console.log(dataToRender.latestPosts["post1"]["post-title"]);
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
