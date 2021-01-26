@@ -13,7 +13,20 @@ function fetchLatestArticles(){
             }
             response.json()
             .then(function(latestPosts){
-                return updateDataToRender(latestPosts);
+                let dataToRender = {
+                    name: 'Vittorio',
+                    date: new Date().toLocaleDateString('en-GB',{
+                        weekday: 'long',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: 'numeric',
+                        timeZone: 'Europe/Rome',
+                    }),
+                    latestPosts: latestPosts
+                }
+                console.log("Inside promise" + dataToRender);
+                return dataToRender;
             }).catch((err)=> {
                 console.log('Error retrieving articles', err);
             })
@@ -21,36 +34,24 @@ function fetchLatestArticles(){
     )
 }
 
-function updateDataToRender(latestPosts){
-    let dataToRender = {
-        name: 'Vittorio',
-        date: new Date().toLocaleDateString('en-GB',{
-            weekday: 'long',
-            month: 'long',
-            day: 'numeric',
-            hour: 'numeric',
-            minute: 'numeric',
-            timeZone: 'Europe/Rome',
-        }),
-        latestPosts: latestPosts
-    }
-    return dataToRender;
+
+
+
+
+
+async function generateReadme(){
+    fs.readFile(MUSTACHE_MAIN_DIR, (err, data)=>{
+        if(err){
+            console.log(err);
+            throw(err);
+        }else{
+            console.log(fetchLatestArticles());
+            let dataToRender = await(fetchLatestArticles);
+            const output = mustache.render(data.toString(), dataToRender);
+            fs.writeFileSync('README.MD', output);
+        }
+    })
 }
 
 
-
-
-// function generateReadme(){
-//     fs.readFile(MUSTACHE_MAIN_DIR, (err, data)=>{
-//         if(err){
-//             console.log(err);
-//             throw(err);
-//         }else{
-//             console.log(fetchLatestArticles());
-//             const output = mustache.render(data.toString(), fetchLatestArticles());
-//             fs.writeFileSync('README.MD', output);
-//         }
-//     })
-// }
-console.log(fetchLatestArticles);
-// generateReadme();
+generateReadme();
