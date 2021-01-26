@@ -1,7 +1,7 @@
-const mustache = require('mustache');
-const fs = require('fs');
-const fetch = require('node-fetch');
-const MUSTACHE_MAIN_DIR = "./main.mustache";
+// const mustache = require('mustache');
+// const fs = require('fs');
+// const fetch = require('node-fetch');
+// const MUSTACHE_MAIN_DIR = "./main.mustache";
 
 function fetchLatestArticles(){
     fetch("http://binaryroot.xyz/api/latest_post.php", {mode:'cors'})
@@ -13,7 +13,6 @@ function fetchLatestArticles(){
             }
             response.json()
             .then(function(latestPosts){
-                console.log(latestPosts);
                 return updateDataToRender(latestPosts);
             }).catch((err)=> {
                 console.log('Error retrieving articles', err);
@@ -41,19 +40,17 @@ function updateDataToRender(latestPosts){
 
 
 
-function generateReadme(){
-    fs.readFile(MUSTACHE_MAIN_DIR, (err, data)=>{
-        if(err){
-            console.log(err);
-            throw(err);
-        }else{
-            console.log(fetchLatestArticles());
-            const output = mustache.render(data.toString(), fetchLatestArticles());
-            fs.writeFileSync('README.MD', output);
-        }
-    })
-}
-
-generateReadme();
-
-fetchLatestArticles();
+// function generateReadme(){
+//     fs.readFile(MUSTACHE_MAIN_DIR, (err, data)=>{
+//         if(err){
+//             console.log(err);
+//             throw(err);
+//         }else{
+//             console.log(fetchLatestArticles());
+//             const output = mustache.render(data.toString(), fetchLatestArticles());
+//             fs.writeFileSync('README.MD', output);
+//         }
+//     })
+// }
+console.log(fetchLatestArticles);
+// generateReadme();
