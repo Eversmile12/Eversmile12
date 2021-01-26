@@ -30,9 +30,6 @@ function fetchLatestArticles(){
             second_post_title: response["post2"]["post-content"],
             second_post_content: response["post2"]["post-date"],
             second_post_date: response["post2"]["post-content"],
-            third_post_title: response["post3"]["post-date"],
-            third_post_content: response["post3"]["post-content"],
-            third_post_date: response["post3"]["post-date"],
         }
         console.log(dataToRender.latestPosts["post1"]["post-title"]);
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
