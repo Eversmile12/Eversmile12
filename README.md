@@ -5,11 +5,28 @@
 - ⚙️ I Love to create new tools to empower CGI Artists
 - 📈 Student at UHI -> Partnership with IBM
 
-
-
 Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vittorio-rivabella/">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
+
+<h2>Projects I'm proud of</h2>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>☀️ Projects</b></td>
+      <td><b>💬 Description</b></td>
+      <td><b>⭐ Stars</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Eversmile12/susanna-server"><b>Susanna Artistic ML</b></a></td>
+      <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/susanna-server?style=flat-square&labelColor=343b41"/></td>
+      <td><a href="https://github.com/Eversmile12/susanna-server"> Repository</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Things I use </h2>
 <p>
@@ -42,5 +59,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 </p>
 <br>    
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Monday, January 18, 5:38 PM</strong></p>
+<strong>Last automatic update Monday, January 18, 5:42 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
