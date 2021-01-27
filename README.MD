@@ -27,16 +27,16 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
     <tr>
       <td><a href="https://github.com/Eversmile12/TerraCare-public"><b>TerraCare Extension</b></a></td>
       <td> "Save the planet from your phone" IBM - Call for Code 2020 - Energy Winner</td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/TerraCare-submission?style=flat-square&labelColor=343b41"/></td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/TerraCare-public?style=flat-square&labelColor=343b41"/></td>
     </tr>
   </tbody>
 </table>
 
 <h2>Things I use </h2>
 <p>
-<img alt="Python"  src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=flat-square&logo=python&logoColor=white"/>
-<img alt="R"  src="https://img.shields.io/badge/r-%23276DC3.svg?&style=flat-square&logo=r&logoColor=white"/>
-<img alt="Java"  src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/>
+<img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=flat-square&logo=python&logoColor=white"/>
+<img alt="R" src="https://img.shields.io/badge/r-%23276DC3.svg?&style=flat-square&logo=r&logoColor=white"/>
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=flat-square&logo=java&logoColor=white"/>
 
 
 <img alt="JavaScript"  src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat-square&logo=javascript&logoColor=%23F7DF1E"/>
@@ -73,12 +73,12 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
-    <td>2021-01-26 12:31:04</td>
+    <td>2021-01-26</td>
     <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;19">This is the second post</a></td>
     <td>Testing a second post</td>
     </tr>
     <tr>
-    <td>2021-01-25 22:56:09</td>
+    <td>2021-01-25</td>
     <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;18">Test Post</a></td>
     <td>Test post</td>
     </tr>
@@ -88,5 +88,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Tuesday, January 26, 7:21 PM</strong></p>
+<strong>Last automatic update Tuesday, January 26, 7:30 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
