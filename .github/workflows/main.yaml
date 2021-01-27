@@ -28,7 +28,7 @@ jobs:
         run: npm install xmlhttprequest
       - name: Generate README file
         run: node index.js
-      - name: Commit and Push new README.md to the repository
+      - name: Commit and Push new README.md to repository
         uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
