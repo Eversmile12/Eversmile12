@@ -73,14 +73,14 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
-    <td>2021-01-27</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;35">Hey! This post is pulled automatically 🦾</a></td>
-    <td>The latest posts are automatically pulled into the</td>
+    <td>2021-01-30</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;37">How to create a self updating GitHub Profile README pt.1</a></td>
+    <td>Recently I came across a post by &lt;a href&#x3D;&quot;https:&#x2F;&#x2F;</td>
     </tr>
     <tr>
     <td>2021-01-27</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;36">Also this post is pulled automatically</a></td>
-    <td>I&#39;m just trying to filling up spaces while I&#39;m wri</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;35">Hey! This post is pulled automatically 🦾</a></td>
+    <td>The latest posts are automatically pulled into the</td>
     </tr>
   </tbody>
 </table>
@@ -88,5 +88,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Saturday, January 30, 11:36 AM</strong></p>
+<strong>Last automatic update Saturday, January 30, 12:05 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
