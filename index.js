@@ -1,6 +1,5 @@
 const mustache = require('mustache');
 const fs = require('fs');
-const fetch = require('node-fetch');
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 const http = new XMLHttpRequest();
@@ -11,10 +10,9 @@ function fetchLatestArticles(){
     const url = "https://binaryroot.xyz/api/latest_post.php";
     http.open("GET",url);
     http.send();
-    
+    // Here we're are declaring the data we will pass to the mustache template
     http.onload= (e) =>{
         let response = JSON.parse(http.responseText);
-        console.log(response["post1"]["post-title"]);
         let dataToRender = {
             name: 'Vittorio',
             date: new Date().toLocaleDateString('en-GB',{
@@ -34,6 +32,8 @@ function fetchLatestArticles(){
             second_post_date: response["post2"]["post-date"].split(" ")[0],
             second_post_url: response["post2"]["post-url"],
         }
+
+        // Here we read the file specified as a constant, render it again, and rewrite the README.MD
         fs.readFile(MUSTACHE_MAIN_DIR,(err, data)=>{
             if(err){
                 console.log(err);
