@@ -7,12 +7,13 @@ const http = new XMLHttpRequest();
 
 
 function fetchLatestArticles(){
-    const url = "https://binaryroot.xyz/api/latest_post.php";
+    const url = "https://api.binaryroot.xyz/github_getpost.php";
     http.open("GET",url);
     http.send();
     // Here we're are declaring the data we will pass to the mustache template
     http.onload= (e) =>{
         let response = JSON.parse(http.responseText);
+        console.log(response)
         let dataToRender = {
             name: 'Vittorio',
             date: new Date().toLocaleDateString('en-GB',{
@@ -23,14 +24,14 @@ function fetchLatestArticles(){
                 minute: 'numeric',
                 timeZone: 'Europe/Rome',
             }),
-            first_post_title: response["post1"]["post-title"],
-            first_post_content: response["post1"]["post-content"],
-            first_post_date: response["post1"]["post-date"].split(" ")[0],
-            first_post_url: response["post1"]["post-url"],
-            second_post_title: response["post2"]["post-title"],
-            second_post_content: response["post2"]["post-content"],
-            second_post_date: response["post2"]["post-date"].split(" ")[0],
-            second_post_url: response["post2"]["post-url"],
+            first_post_title: response["post 1"]["title"],
+            first_post_content: response["post 1"]["excerpt"],
+            first_post_date: response["post 1"]["date"].split(" ")[0],
+            first_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 1"]["id"],
+            second_post_title: response["post 2"]["title"],
+            second_post_content: response["post 2"]["excerpt"],
+            second_post_date: response["post 2"]["date"].split(" ")[0],
+            second_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 2"]["id"]
         }
 
         // Here we read the file specified as a constant, render it again, and rewrite the README.MD
