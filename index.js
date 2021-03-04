@@ -7,6 +7,7 @@ const http = new XMLHttpRequest();
 
 
 function fetchLatestArticles(){
+    
     const url = "https://api.binaryroot.xyz/github_getpost.php";
     http.open("GET",url);
     http.send();

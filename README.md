@@ -74,13 +74,13 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   <tbody>
     <tr>
     <td>2021-03-03</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;92">This is a new post</a></td>
-    <td>Doing it to test a bunch </td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;105">IBM - A Worldwide Speech   - Lo1.1.3.3</a></td>
+    <td> 150 invitations, 75 part</td>
     </tr>
     <tr>
     <td>2021-03-03</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;53">Image 2</a></td>
-    <td>New post	 </td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;96">How to create a self updating GitHub Profile README</a></td>
+    <td>Recently I came across a </td>
     </tr>
   </tbody>
 </table>
@@ -88,5 +88,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Wednesday, March 3, 11:43 AM</strong></p>
+<strong>Last automatic update Thursday, March 4, 1:14 AM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
