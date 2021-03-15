@@ -73,14 +73,14 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
-    <td>2021-03-13</td>
+    <td>2021-03-15</td>
     <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;108">Better Code: Human Interfaces</a></td>
     <td>Today I was watching a vi</td>
     </tr>
     <tr>
-    <td>2021-03-13</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;107">We cant always have latest technologies on market - LO1.3.2.1 </a></td>
-    <td>Why is my website built u</td>
+    <td>2021-03-15</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;96">How to create a self updating GitHub Profile README</a></td>
+    <td>Recently I came across a </td>
     </tr>
   </tbody>
 </table>
@@ -88,5 +88,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Monday, March 15, 1:07 PM</strong></p>
+<strong>Last automatic update Monday, March 15, 7:06 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
