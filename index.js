@@ -32,7 +32,15 @@ function fetchLatestArticles(){
             second_post_title: response["post 2"]["title"],
             second_post_content: response["post 2"]["excerpt"],
             second_post_date: response["post 2"]["date"].split(" ")[0],
-            second_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 2"]["id"]
+            second_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 2"]["id"],
+            third_post_title: response["post 3"]["title"],
+            third_post_content: response["post 3"]["excerpt"],
+            third_post_date: response["post 3"]["date"].split(" ")[0],
+            third_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 3"]["id"],
+            fourth_post_title: response["post 4"]["title"],
+            fourth_post_content: response["post 4"]["excerpt"],
+            fourth_post_date: response["post 4"]["date"].split(" ")[0],
+            fourth_post_url: "https://binaryroot.xyz/post.php?post_id=" + response["post 4"]["id"]
         }
 
         // Here we read the file specified as a constant, render it again, and rewrite the README.MD
