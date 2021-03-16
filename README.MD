@@ -20,6 +20,11 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
+      <td><a href="https://github.com/Eversmile12/BookmarkIt"><b>BookmarkIt!<img src="./icons/bookmarkit_16x16.png"width=15 height=15></b></a></td>
+      <td> Bookmarks manager mande agile</td>
+      <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/BookmarkIt?style=flat-square&labelColor=343b41"/></td>
+    </tr>
+    <tr>
       <td><a href="https://github.com/Eversmile12/susanna-server"><b>Susanna Artistic ML</b></a></td>
       <td> Artistic Machine Learning project that uses ML to colorize Humans Figures.</td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/Eversmile12/susanna-server?style=flat-square&labelColor=343b41"/></td>
@@ -82,11 +87,21 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
     <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;113">Headsfirst - Wireframes - LO1.1.2.2 </a></td>
     <td>It is good practice to pl</td>
     </tr>
+      <tr>
+    <td>2021-03-15</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;113">Today I Have Learned 001 - A new Beginning</a></td>
+    <td>TIL - Python for Maya and</td>
+    </tr>
+    <tr>
+    <td>2021-03-15</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;113">Better Code: Human Interfaces</a></td>
+    <td>Today I was watching a vi</td>
+    </tr>
   </tbody>
 </table>
 
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Tuesday, March 16, 1:14 AM</strong></p>
+<strong>Last automatic update Tuesday, March 16, 1:50 AM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
