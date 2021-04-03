@@ -78,24 +78,24 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
+    <td>2021-04-03</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;123">GOING FULL CLOUD WITH BookmarkIt - pt.1</a></td>
+    <td>As I wrote many times in </td>
+    </tr>
+    <tr>
     <td>2021-03-29</td>
     <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">USING TRELLO TO MANAGE PROFESSIONAL AND PERSONAL DEVELOPMENT - LO1.3.2.2</a></td>
     <td>Recently I&amp;#39;ve found mysel</td>
     </tr>
-    <tr>
-    <td>2021-03-28</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;119">TIL - AnimateIt Devlog 01 - Studying advanced rigging techniques</a></td>
-    <td>What have I done today?I&amp;#39;</td>
-    </tr>
       <tr>
     <td>2021-03-28</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;119">INSIDERS AS A THREAT - LO1.3.1.4</a></td>
-    <td>A small follow-up about t</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">TIL - AnimateIt Devlog 01 - Studying advanced rigging techniques</a></td>
+    <td>What have I done today?I&amp;#39;</td>
     </tr>
     <tr>
     <td>2021-03-28</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;119">RICK FERGUSON GUEST LECTURE - LO1.1.2.4</a></td>
-    <td>Unfortunately, I hadn&amp;#39;t t</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">INSIDERS AS A THREAT - LO1.3.1.4</a></td>
+    <td>A small follow-up about t</td>
     </tr>
   </tbody>
 </table>
@@ -103,5 +103,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Saturday, April 3, 8:13 AM</strong></p>
+<strong>Last automatic update Saturday, April 3, 2:14 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
