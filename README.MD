@@ -78,24 +78,24 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
+    <td>2021-04-11</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;128">C4C - Managing Deviations - LO1.1.2.1</a></td>
+    <td>Again, this year with my </td>
+    </tr>
+    <tr>
+    <td>2021-04-11</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;127">Going full cloud with BookmarkIt - pt.2</a></td>
+    <td>Last time I talked about </td>
+    </tr>
+      <tr>
     <td>2021-04-03</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;121">GOING FULL CLOUD WITH BookmarkIt - pt.1</a></td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;127">GOING FULL CLOUD WITH BookmarkIt - pt.1</a></td>
     <td>As I wrote many times in </td>
     </tr>
     <tr>
     <td>2021-03-29</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">USING TRELLO TO MANAGE PROFESSIONAL AND PERSONAL DEVELOPMENT - LO1.3.2.2</a></td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;127">USING TRELLO TO MANAGE PROFESSIONAL AND PERSONAL DEVELOPMENT - LO1.3.2.2</a></td>
     <td>Recently I&amp;#39;ve found mysel</td>
-    </tr>
-      <tr>
-    <td>2021-03-28</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">TIL - AnimateIt Devlog 01 - Studying advanced rigging techniques</a></td>
-    <td>What have I done today?I&amp;#39;</td>
-    </tr>
-    <tr>
-    <td>2021-03-28</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;117">INSIDERS AS A THREAT - LO1.3.1.4</a></td>
-    <td>A small follow-up about t</td>
     </tr>
   </tbody>
 </table>
@@ -103,5 +103,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Sunday, April 11, 8:21 PM</strong></p>
+<strong>Last automatic update Monday, April 12, 2:37 AM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
