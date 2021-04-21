@@ -78,24 +78,24 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   </thead>
   <tbody>
     <tr>
+    <td>2021-04-21</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;118">PERSONAL DEVELOPMENT PLAN UPDATE - LO1.2.1.3</a></td>
+    <td>After eight months I&amp;#39;ve u</td>
+    </tr>
+    <tr>
+    <td>2021-04-21</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;120">REGULAR REVIEWS AND ALLIGNMENT TO MANAGE A REMOTE TEAM - LO1.1.3.1</a></td>
+    <td>I&amp;#39;ve recently started wor</td>
+    </tr>
+      <tr>
     <td>2021-04-12</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;129">TIL - C++ Open GL notes 001 - LO1.1.2.5</a></td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;120">TIL - C++ Open GL notes 001 - LO1.1.2.5</a></td>
     <td>I&amp;#39;ve recently started stu</td>
     </tr>
     <tr>
     <td>2021-04-11</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;128">C4C - Managing Deviations - LO1.1.2.1</a></td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;120">C4C - Managing Deviations - LO1.1.2.1</a></td>
     <td>Again, this year with my </td>
-    </tr>
-      <tr>
-    <td>2021-04-11</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;128">Going full cloud with BookmarkIt - pt.2</a></td>
-    <td>Last time I talked about </td>
-    </tr>
-    <tr>
-    <td>2021-04-03</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;128">GOING FULL CLOUD WITH BookmarkIt - pt.1</a></td>
-    <td>As I wrote many times in </td>
     </tr>
   </tbody>
 </table>
@@ -103,5 +103,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Wednesday, April 21, 2:15 PM</strong></p>
+<strong>Last automatic update Wednesday, April 21, 8:22 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
