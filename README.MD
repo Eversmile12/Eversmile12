@@ -79,23 +79,23 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
   <tbody>
     <tr>
     <td>2021-05-03</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;170">CONDING AND DEPLOYING A TWITTER BOT ON HEROKU</a></td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;170">CODING AND DEPLOYING A TWITTER BOT ON HEROKU</a></td>
     <td>New post new challenge: I</td>
     </tr>
     <tr>
-    <td>2021-04-21</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;118">PERSONAL DEVELOPMENT PLAN UPDATE - LO1.2.1.3</a></td>
-    <td>After eight months I&amp;#39;ve u</td>
+    <td>2021-05-03</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;178">TIL 004 - C++ UNIT TESTING USING GOOGLE TEST </a></td>
+    <td>It&amp;#39;s been a long time sin</td>
     </tr>
       <tr>
-    <td>2021-04-21</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;118">REGULAR REVIEWS AND ALLIGNMENT TO MANAGE A REMOTE TEAM - LO1.1.3.1</a></td>
+    <td>2021-05-03</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;178">REGULAR REVIEWS AND ALIGNMENT TO MANAGE A REMOTE TEAM - LO1.1.3.1</a></td>
     <td>I&amp;#39;ve recently started wor</td>
     </tr>
     <tr>
-    <td>2021-04-12</td>
-    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;118">TIL - C++ Open GL notes 001 - LO1.1.2.5</a></td>
-    <td>I&amp;#39;ve recently started stu</td>
+    <td>2021-05-03</td>
+    <td><a href="https:&#x2F;&#x2F;binaryroot.xyz&#x2F;post.php?post_id&#x3D;178">Deploy Python on Heroku</a></td>
+    <td>In the last article, we&amp;#39;v</td>
     </tr>
   </tbody>
 </table>
@@ -103,5 +103,5 @@ Reach me at iwasvitto@gmail.com or on <a href="https://www.linkedin.com/in/vitto
 
 
 <p >This README is updated every 6 Hours <br>
-<strong>Last automatic update Monday, May 3, 2:11 PM</strong></p>
+<strong>Last automatic update Monday, May 3, 8:16 PM</strong></p>
 <img src="https://img.shields.io/github/workflow/status/Eversmile12/Eversmile12/README%20build?logo=github">
