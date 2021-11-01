@@ -1,35 +1,35 @@
-name: README build
+# name: README build
 
-on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 */6 * * *'
+# on:
+#   push:
+#     branches: [ main ]
+#   schedule:
+#     - cron: '0 */6 * * *'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout current repository to Master branch
-        uses: actions/checkout@v2
-      - name: Setup NodeJs
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
-      - name: Install dependencies
-        run: npm install
-      - name: Install xml-httprequests
-        run: npm install xmlhttprequest
-      - name: Generate README file
-        run: node index.js
-      - name: Commit and Push new README.md to repository
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'main'
+#     steps:
+#       - name: Checkout current repository to Master branch
+#         uses: actions/checkout@v2
+#       - name: Setup NodeJs
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: '12.x'
+#       - name: Cache dependencies and build outputs to improve workflow execution time.
+#         uses: actions/cache@v1
+#         with:
+#           path: node_modules
+#           key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
+#       - name: Install dependencies
+#         run: npm install
+#       - name: Install xml-httprequests
+#         run: npm install xmlhttprequest
+#       - name: Generate README file
+#         run: node index.js
+#       - name: Commit and Push new README.md to repository
+#         uses: mikeal/publish-to-github-action@master
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#           BRANCH_NAME: 'main'
